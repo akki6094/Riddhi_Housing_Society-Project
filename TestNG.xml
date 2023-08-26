@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Riddhi_Housing_Society">
+
+
+	<listeners>
+		<listener
+			class-name="com.riddhiHousingSociety.utilities.Reporting" />
+	</listeners>
+	<test name="RiddhiHousingSociety Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			     <class name="com.riddhiHousingSociety.testCases.TC_LoginTest_001" /> 
+				 <class name="com.riddhiHousingSociety.testCases.TC_LoginDDT_002" /> 
+				 <class name="com.riddhiHousingSociety.testCases.TC_AddSectionTest_003" /> 
+			     <class name="com.riddhiHousingSociety.testCases.TC_AddNewContentTest_004" /> 
+				 <class name="com.riddhiHousingSociety.testCases.TC_EditContentTest_005" /> 
+				<!-- <class name="com.riddhiHousingSociety.testCases.TC_DeleteContentTest_006" /> -->
+				 <class name="com.riddhiHousingSociety.testCases.TC_AddReceiptTest_007" /> 
+				 <class name="com.riddhiHousingSociety.testCases.TC_Veiw_EditReceiptTest_008" />
+				<!-- <class name="com.riddhiHousingSociety.testCases.TC_DeleteReceipt_009" /> -->
+				 <class name="com.riddhiHousingSociety.testCases.TC_AddUserTest_010" /> 
+				 <class name="com.riddhiHousingSociety.testCases.TC_ListResidentUpdateTeat_011" />
+			     <class name="com.riddhiHousingSociety.testCases.TC_ListTenantsTest_012" />
+			     <class name="com.riddhiHousingSociety.testCases.TC_AddExpensePageTest_013" /> 
+			     <class name="com.riddhiHousingSociety.testCases.TC_ListExpenseTest_014" /> 
+		</classes>
+
+	</test>
+
+</suite>

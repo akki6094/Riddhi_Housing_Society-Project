@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3.1" tests="27" errors="0" skipped="18" failures="9">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.8+9-LTS-211"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\HP\eclipse-workspace\AkshayProject\Selenium Automation\riddhi_Housing_Society"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\HP\eclipse-workspace\AkshayProject\Selenium Automation\riddhi_Housing_Society"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.8+9-LTS-211"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.9.4\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-17/bin;C:\Program Files\Java\jdk-17/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Program Files\Python311\Scripts;C:\oracle\product\10.2.0\db_27\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\bin;C:\Users\HP\PycharmProjects;C:\Users\HP\venv\Scripts;C:\apache-maven-3.9.4\bin;C:\Program Files\Java\jdk-17\bin;C:\apache-maven-3.9.4\\bin;C:\Program Files\Java\jdk-17;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jdk-17\lib;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.9.4/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.9.4\lib\jansi-native"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="LAPTOP-B3GKLPMA$"/>
+    <property name="java.class.path" value="C:\apache-maven-3.9.4\boot\plexus-classworlds-2.7.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.8"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.9.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="setup" classname="com.riddhiHousingSociety.testCases.TC_LoginTest_001" time="1.687">
+    <failure message="Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary &#10;Host info: host: &apos;LAPTOP-B3GKLPMA&apos;, ip: &apos;192.168.171.88&apos;&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary 
+Host info: host: 'LAPTOP-B3GKLPMA', ip: '192.168.171.88'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+</failure>
+    <system-err><![CDATA[Aug 25, 2023 12:26:14 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.riddhiHousingSociety.testCases.TC_LoginTest_001" time="0">
+    <skipped message="Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary &#10;Host info: host: &apos;LAPTOP-B3GKLPMA&apos;, ip: &apos;192.168.171.88&apos;&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.riddhiHousingSociety.testCases.TC_LoginTest_001" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.riddhiHousingSociety.testCases.TC_AddSectionTest_003" time="0.123">
+    <failure message="Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary &#10;Host info: host: &apos;LAPTOP-B3GKLPMA&apos;, ip: &apos;192.168.171.88&apos;&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary 
+Host info: host: 'LAPTOP-B3GKLPMA', ip: '192.168.171.88'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+</failure>
+    <system-err><![CDATA[Aug 25, 2023 12:26:15 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+]]></system-err>
+  </testcase>
+  <testcase name="addSectionTest" classname="com.riddhiHousingSociety.testCases.TC_AddSectionTest_003" time="0">
+    <skipped message="Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary &#10;Host info: host: &apos;LAPTOP-B3GKLPMA&apos;, ip: &apos;192.168.171.88&apos;&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.riddhiHousingSociety.testCases.TC_AddSectionTest_003" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.riddhiHousingSociety.testCases.TC_AddNewContentTest_004" time="0.116">
+    <failure message="Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary &#10;Host info: host: &apos;LAPTOP-B3GKLPMA&apos;, ip: &apos;192.168.171.88&apos;&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary 
+Host info: host: 'LAPTOP-B3GKLPMA', ip: '192.168.171.88'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+</failure>
+    <system-err><![CDATA[Aug 25, 2023 12:26:15 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+]]></system-err>
+  </testcase>
+  <testcase name="addNewContentTest" classname="com.riddhiHousingSociety.testCases.TC_AddNewContentTest_004" time="0">
+    <skipped message="Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary &#10;Host info: host: &apos;LAPTOP-B3GKLPMA&apos;, ip: &apos;192.168.171.88&apos;&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.riddhiHousingSociety.testCases.TC_AddNewContentTest_004" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.riddhiHousingSociety.testCases.TC_EditContentTest_005" time="0.133">
+    <failure message="Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary &#10;Host info: host: &apos;LAPTOP-B3GKLPMA&apos;, ip: &apos;192.168.171.88&apos;&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary 
+Host info: host: 'LAPTOP-B3GKLPMA', ip: '192.168.171.88'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+</failure>
+    <system-err><![CDATA[Aug 25, 2023 12:26:15 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+]]></system-err>
+  </testcase>
+  <testcase name="editContentTest" classname="com.riddhiHousingSociety.testCases.TC_EditContentTest_005" time="0">
+    <skipped message="Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary &#10;Host info: host: &apos;LAPTOP-B3GKLPMA&apos;, ip: &apos;192.168.171.88&apos;&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.riddhiHousingSociety.testCases.TC_EditContentTest_005" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.riddhiHousingSociety.testCases.TC_AddReceiptTest_007" time="0.13">
+    <failure message="Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary &#10;Host info: host: &apos;LAPTOP-B3GKLPMA&apos;, ip: &apos;192.168.171.88&apos;&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary 
+Host info: host: 'LAPTOP-B3GKLPMA', ip: '192.168.171.88'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+</failure>
+    <system-err><![CDATA[Aug 25, 2023 12:26:16 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+]]></system-err>
+  </testcase>
+  <testcase name="addReceiptTest" classname="com.riddhiHousingSociety.testCases.TC_AddReceiptTest_007" time="0">
+    <skipped message="Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary &#10;Host info: host: &apos;LAPTOP-B3GKLPMA&apos;, ip: &apos;192.168.171.88&apos;&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.riddhiHousingSociety.testCases.TC_AddReceiptTest_007" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.riddhiHousingSociety.testCases.TC_AddUserTest_010" time="0.139">
+    <failure message="Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary &#10;Host info: host: &apos;LAPTOP-B3GKLPMA&apos;, ip: &apos;192.168.171.88&apos;&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary 
+Host info: host: 'LAPTOP-B3GKLPMA', ip: '192.168.171.88'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+</failure>
+    <system-err><![CDATA[Aug 25, 2023 12:26:16 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+]]></system-err>
+  </testcase>
+  <testcase name="addUserTest" classname="com.riddhiHousingSociety.testCases.TC_AddUserTest_010" time="0">
+    <skipped message="Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary &#10;Host info: host: &apos;LAPTOP-B3GKLPMA&apos;, ip: &apos;192.168.171.88&apos;&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.riddhiHousingSociety.testCases.TC_AddUserTest_010" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.riddhiHousingSociety.testCases.TC_ListTenantsTest_012" time="0.118">
+    <failure message="Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary &#10;Host info: host: &apos;LAPTOP-B3GKLPMA&apos;, ip: &apos;192.168.171.88&apos;&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary 
+Host info: host: 'LAPTOP-B3GKLPMA', ip: '192.168.171.88'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+</failure>
+    <system-err><![CDATA[Aug 25, 2023 12:26:16 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+]]></system-err>
+  </testcase>
+  <testcase name="listTenantsTest" classname="com.riddhiHousingSociety.testCases.TC_ListTenantsTest_012" time="0">
+    <skipped message="Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary &#10;Host info: host: &apos;LAPTOP-B3GKLPMA&apos;, ip: &apos;192.168.171.88&apos;&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.riddhiHousingSociety.testCases.TC_ListTenantsTest_012" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.riddhiHousingSociety.testCases.TC_AddExpensePageTest_013" time="0.115">
+    <failure message="Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary &#10;Host info: host: &apos;LAPTOP-B3GKLPMA&apos;, ip: &apos;192.168.171.88&apos;&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary 
+Host info: host: 'LAPTOP-B3GKLPMA', ip: '192.168.171.88'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+</failure>
+    <system-err><![CDATA[Aug 25, 2023 12:26:16 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+]]></system-err>
+  </testcase>
+  <testcase name="addExpenseTest" classname="com.riddhiHousingSociety.testCases.TC_AddExpensePageTest_013" time="0">
+    <skipped message="Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary &#10;Host info: host: &apos;LAPTOP-B3GKLPMA&apos;, ip: &apos;192.168.171.88&apos;&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.riddhiHousingSociety.testCases.TC_AddExpensePageTest_013" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.riddhiHousingSociety.testCases.TC_ListExpenseTest_014" time="0.116">
+    <failure message="Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary &#10;Host info: host: &apos;LAPTOP-B3GKLPMA&apos;, ip: &apos;192.168.171.88&apos;&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary 
+Host info: host: 'LAPTOP-B3GKLPMA', ip: '192.168.171.88'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+</failure>
+    <system-err><![CDATA[Aug 25, 2023 12:26:16 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+]]></system-err>
+  </testcase>
+  <testcase name="addExpenseTest" classname="com.riddhiHousingSociety.testCases.TC_ListExpenseTest_014" time="0">
+    <skipped message="Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary &#10;Host info: host: &apos;LAPTOP-B3GKLPMA&apos;, ip: &apos;192.168.171.88&apos;&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.riddhiHousingSociety.testCases.TC_ListExpenseTest_014" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
